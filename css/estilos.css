@@ -82,12 +82,13 @@ body{
     font-size: 25px;
     margin-bottom: 20px;
 }
-
+/*boton APP*/
 .textos-hero a{
     display: inline-block;
     text-decoration: none;
     padding: 12px 15px;
-    background: #a18cd1;
+	font-size: 25px;
+    background: #fac13c;
     border-radius: 8px;
     color: #fff	;
 }
