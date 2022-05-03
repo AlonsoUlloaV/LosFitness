@@ -156,7 +156,7 @@ body{
     margin: 1rem 0;
 }
 
-
+/*TITULOS*/
 
 .titulo{
     font-weight: 300;
@@ -457,7 +457,8 @@ input[type="submit"]:hover{
 }
 
 @media screen and (max-width:800px){
-    /*menun*/
+    
+/*MENU*/
 	.checkbtn{
         display: block;
     }
@@ -490,7 +491,7 @@ input[type="submit"]:hover{
 	#check:checked ~ ul{
         left:0;
     }
-    /* estilos generales */
+/* estilos generales */
     .titulo{
         font-size: 35px;
     }
@@ -504,8 +505,9 @@ input[type="submit"]:hover{
         text-align: center;
     }
 
-    /* section */
-    .website{
+/* section */
+    
+	.website{
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
@@ -520,12 +522,15 @@ input[type="submit"]:hover{
     }
 
 /*CARACTERISTICAS*/
+	
 	.caracteristicas-contenedor{
 		flex-direction: column;
 	}
 	.caracteristica-texto{
 		text-align: center;
 	}
+
+/*Recetas*/
 
     .alimentos
     {
